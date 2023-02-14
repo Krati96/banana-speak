@@ -1,4 +1,6 @@
 # banana-speak
  Translation in another language
 
- Using vanilla.js and js dor developing this project.
+ Using vanillaJs for developing this project.
+ 
+ Here we translate English to gibberish language.
