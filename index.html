@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Speak</title>
+    <!-- Internal Styling -->
+    <style>
+      textarea {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: large;
+        font-family: inherit;
+      }
+
+      #output {
+        border: 1px solid black;
+        min-height: 10vh;
+        max-height: 20vh;
+        width: 100%;
+        /* margin: 1rem; */
+        overflow: scroll;
+        padding: 1rem;
+    
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+        <div style="font-size: 2rem; padding: 1rem">Talk Banana</div>
+    </nav>
+    <main>
+      <textarea
+        name="Input value"
+        id="txt-input"
+        placeholder="Put your sentence in English here and we will conver it to banana..."
+      ></textarea>
+      <button id="btn-translate">Translate To Banana</button>
+
+      <div style="font-size: larger">Your Outcome will come here ☟</div>
+      <div id="output" style="padding: 1rem; font-size: large;">
+        <!-- Krati is Awsome! -->
+      </div>
+    </main>
+
+    <footer>
+      <div style="font-size: x-large">About</div>
+      <p>
+        Are you a fan of minions? Did you know that the gibberish they say is an
+        actual language. Use the translator to convert your text from English to
+        Minion speak or Banana language.
+      </p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
